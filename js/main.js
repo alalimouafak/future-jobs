@@ -1,4 +1,4 @@
-fetch("POST https://entreprise.pole-emploi.fr/connexion/oauth2/access_token" , {
+fetch("POST /connexion/oauth2/access_token?realm=%2Fpartenaire" , {
     method: 'POST',
     headers: {
       "Content-type": "application/x-www-form-urlencoded;",
