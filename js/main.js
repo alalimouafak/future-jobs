@@ -4,7 +4,7 @@
 //     .then(response=>console.log(response))
 // let url = 'https://entreprise.pole-emploi.fr/connexion/oauth2/access_token?realm=partenaire';
 
-fetch( 'POST https://entreprise.pole-emploi.fr/connexion/oauth2/access_token?realm=partenaire', {
+fetch( 'https://entreprise.pole-emploi.fr/connexion/oauth2/access_token?realm=partenaire', {
     method: 'POST',
     headers: {
       "Content-type": "application/x-www-form-urlencoded;",
